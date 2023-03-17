@@ -1,0 +1,6 @@
+2023-03-17 00:44:07.472 [Timer-0] INFO  c.j.m.s.temp.DefaultTempCleanService -Clean temp dir ./tmp/, duration: 12960000
+2023-03-17 04:20:07.342 [Timer-0] INFO  c.j.m.s.temp.DefaultTempCleanService -Clean temp dir ./tmp/, duration: 12960000
+2023-03-17 07:56:07.343 [Timer-0] INFO  c.j.m.s.temp.DefaultTempCleanService -Clean temp dir ./tmp/, duration: 12960000
+2023-03-17 11:32:07.602 [Timer-0] INFO  c.j.m.s.temp.DefaultTempCleanService -Clean temp dir ./tmp/, duration: 12960000
+2023-03-17 15:08:07.452 [Timer-0] INFO  c.j.m.s.temp.DefaultTempCleanService -Clean temp dir ./tmp/, duration: 12960000
+2023-03-17 17:28:07.825 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
