@@ -1,0 +1,279 @@
+2023-03-22 14:14:11.741 [main] INFO  org.reflections.Reflections -Reflections took 32 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-22 14:14:11.780 [main] INFO  org.reflections.Reflections -Reflections took 15 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-22 14:14:11.791 [main] INFO  org.reflections.Reflections -Reflections took 9 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-22 14:14:11.899 [main] INFO  org.reflections.Reflections -Reflections took 104 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 14:14:11.907 [main] INFO  org.reflections.Reflections -Reflections took 7 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-22 14:14:11.919 [main] INFO  org.reflections.Reflections -Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-22 14:14:11.931 [main] INFO  org.reflections.Reflections -Reflections took 10 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-22 14:14:12.031 [main] INFO  org.reflections.Reflections -Reflections took 96 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 14:14:19.720 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration -Located property source: [BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common,DEFAULT_GROUP'}]
+2023-03-22 14:14:19.724 [main] INFO  c.c.a.a.AssembleApiGatewayApplication -No active profile set, falling back to default profiles: default
+2023-03-22 14:14:20.386 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=7651e513-7efe-38d9-bce7-4282759fe0de
+2023-03-22 14:14:20.439 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 14:14:20.440 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 14:14:20.441 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 14:14:20.539 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -gateway route init...
+2023-03-22 14:14:20.539 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -load the nacos config is assemble-platform-common.properties,DEFAULT_GROUP
+2023-03-22 14:14:26.892 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -获取网关当前配置:
+null
+2023-03-22 14:14:26.906 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -load the nacos config is assemble-platform-common.properties,DEFAULT_GROUP
+2023-03-22 14:14:33.290 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-22 14:14:33.294 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-22 14:14:34.554 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [After]
+2023-03-22 14:14:34.556 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Before]
+2023-03-22 14:14:34.556 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Between]
+2023-03-22 14:14:34.556 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Cookie]
+2023-03-22 14:14:34.556 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Header]
+2023-03-22 14:14:34.556 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Host]
+2023-03-22 14:14:34.557 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Method]
+2023-03-22 14:14:34.557 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Path]
+2023-03-22 14:14:34.557 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Query]
+2023-03-22 14:14:34.557 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2023-03-22 14:14:34.557 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-22 14:14:34.557 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Weight]
+2023-03-22 14:14:34.557 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-22 14:14:40.838 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver -Exposing 20 endpoint(s) beneath base path '/actuator'
+2023-03-22 14:14:40.903 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-22 14:14:40.948 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Initializing ExecutorService
+2023-03-22 14:14:42.372 [main] INFO  o.s.b.w.e.netty.NettyWebServer -Netty started on port(s): 8001
+2023-03-22 14:14:43.275 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-22 14:14:43.278 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-22 14:14:43.587 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Shutting down ExecutorService
+2023-03-22 14:44:36.378 [main] INFO  org.reflections.Reflections -Reflections took 26 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-22 14:44:36.401 [main] INFO  org.reflections.Reflections -Reflections took 10 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-22 14:44:36.413 [main] INFO  org.reflections.Reflections -Reflections took 9 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-22 14:44:36.538 [main] INFO  org.reflections.Reflections -Reflections took 122 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 14:44:36.546 [main] INFO  org.reflections.Reflections -Reflections took 7 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-22 14:44:36.555 [main] INFO  org.reflections.Reflections -Reflections took 7 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-22 14:44:36.566 [main] INFO  org.reflections.Reflections -Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-22 14:44:36.664 [main] INFO  org.reflections.Reflections -Reflections took 95 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 14:44:44.297 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration -Located property source: [BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common,DEFAULT_GROUP'}]
+2023-03-22 14:44:44.301 [main] INFO  c.c.a.a.AssembleApiGatewayApplication -No active profile set, falling back to default profiles: default
+2023-03-22 14:44:44.889 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=7651e513-7efe-38d9-bce7-4282759fe0de
+2023-03-22 14:44:44.937 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 14:44:44.938 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 14:44:44.939 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 14:44:45.025 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -gateway route init...
+2023-03-22 14:44:45.025 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -load the nacos config is assemble-platform-common.properties,DEFAULT_GROUP
+2023-03-22 14:44:51.397 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -获取网关当前配置:
+null
+2023-03-22 14:44:51.402 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -load the nacos config is assemble-platform-common.properties,DEFAULT_GROUP
+2023-03-22 14:44:57.765 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-22 14:44:57.769 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-22 14:44:59.012 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [After]
+2023-03-22 14:44:59.013 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Before]
+2023-03-22 14:44:59.013 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Between]
+2023-03-22 14:44:59.013 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Cookie]
+2023-03-22 14:44:59.013 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Header]
+2023-03-22 14:44:59.013 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Host]
+2023-03-22 14:44:59.013 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Method]
+2023-03-22 14:44:59.014 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Path]
+2023-03-22 14:44:59.014 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Query]
+2023-03-22 14:44:59.014 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2023-03-22 14:44:59.014 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-22 14:44:59.014 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Weight]
+2023-03-22 14:44:59.014 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-22 14:45:05.308 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver -Exposing 20 endpoint(s) beneath base path '/actuator'
+2023-03-22 14:45:05.375 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-22 14:45:05.418 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Initializing ExecutorService
+2023-03-22 14:45:06.686 [main] INFO  o.s.b.w.e.netty.NettyWebServer -Netty started on port(s): 8001
+2023-03-22 14:45:07.477 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-22 14:45:07.478 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-22 14:45:07.789 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Shutting down ExecutorService
+2023-03-22 14:45:38.311 [main] INFO  org.reflections.Reflections -Reflections took 25 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-22 14:45:38.335 [main] INFO  org.reflections.Reflections -Reflections took 11 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-22 14:45:38.346 [main] INFO  org.reflections.Reflections -Reflections took 9 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-22 14:45:38.457 [main] INFO  org.reflections.Reflections -Reflections took 109 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 14:45:38.464 [main] INFO  org.reflections.Reflections -Reflections took 7 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-22 14:45:38.474 [main] INFO  org.reflections.Reflections -Reflections took 8 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-22 14:45:38.484 [main] INFO  org.reflections.Reflections -Reflections took 7 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-22 14:45:38.576 [main] INFO  org.reflections.Reflections -Reflections took 90 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 14:45:46.165 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration -Located property source: [BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common,DEFAULT_GROUP'}]
+2023-03-22 14:45:46.169 [main] INFO  c.c.a.a.AssembleApiGatewayApplication -No active profile set, falling back to default profiles: default
+2023-03-22 14:47:07.836 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=7651e513-7efe-38d9-bce7-4282759fe0de
+2023-03-22 14:47:07.885 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 14:47:07.886 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 14:47:07.887 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 14:47:07.969 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -load the nacos config is assemble-platform-common.properties,DEFAULT_GROUP
+2023-03-22 14:47:14.354 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -gateway route init...
+2023-03-22 14:47:14.354 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -load the nacos config is assemble-platform-common.properties,DEFAULT_GROUP
+2023-03-22 14:47:20.715 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -获取网关当前配置:
+null
+2023-03-22 14:47:20.733 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-22 14:47:20.737 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-22 14:47:21.980 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [After]
+2023-03-22 14:47:21.981 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Before]
+2023-03-22 14:47:21.981 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Between]
+2023-03-22 14:47:21.981 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Cookie]
+2023-03-22 14:47:21.981 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Header]
+2023-03-22 14:47:21.981 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Host]
+2023-03-22 14:47:21.981 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Method]
+2023-03-22 14:47:21.981 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Path]
+2023-03-22 14:47:21.982 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Query]
+2023-03-22 14:47:21.982 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2023-03-22 14:47:21.982 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-22 14:47:21.982 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Weight]
+2023-03-22 14:47:21.982 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-22 14:47:41.170 [main] INFO  org.reflections.Reflections -Reflections took 28 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-22 14:47:41.194 [main] INFO  org.reflections.Reflections -Reflections took 10 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-22 14:47:41.205 [main] INFO  org.reflections.Reflections -Reflections took 9 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-22 14:47:41.321 [main] INFO  org.reflections.Reflections -Reflections took 114 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 14:47:41.328 [main] INFO  org.reflections.Reflections -Reflections took 7 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-22 14:47:41.338 [main] INFO  org.reflections.Reflections -Reflections took 8 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-22 14:47:41.346 [main] INFO  org.reflections.Reflections -Reflections took 7 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-22 14:47:41.437 [main] INFO  org.reflections.Reflections -Reflections took 89 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 14:47:49.046 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration -Located property source: [BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common,DEFAULT_GROUP'}]
+2023-03-22 14:47:49.050 [main] INFO  c.c.a.a.AssembleApiGatewayApplication -No active profile set, falling back to default profiles: default
+2023-03-22 14:47:57.715 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=7651e513-7efe-38d9-bce7-4282759fe0de
+2023-03-22 14:47:57.770 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 14:47:57.771 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 14:47:57.772 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 14:47:57.867 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -gateway route init...
+2023-03-22 14:47:57.868 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -load the nacos config is assemble-platform-common.properties,DEFAULT_GROUP
+2023-03-22 14:48:04.225 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -获取网关当前配置:
+null
+2023-03-22 14:48:04.230 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -load the nacos config is assemble-platform-common.properties,DEFAULT_GROUP
+2023-03-22 14:48:10.611 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-22 14:48:10.615 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-22 14:48:11.854 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [After]
+2023-03-22 14:48:11.855 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Before]
+2023-03-22 14:48:11.855 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Between]
+2023-03-22 14:48:11.855 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Cookie]
+2023-03-22 14:48:11.855 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Header]
+2023-03-22 14:48:11.856 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Host]
+2023-03-22 14:48:11.856 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Method]
+2023-03-22 14:48:11.856 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Path]
+2023-03-22 14:48:11.856 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Query]
+2023-03-22 14:48:11.856 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2023-03-22 14:48:11.856 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-22 14:48:11.857 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Weight]
+2023-03-22 14:48:11.857 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-22 14:48:44.915 [main] INFO  org.reflections.Reflections -Reflections took 29 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-22 14:48:44.939 [main] INFO  org.reflections.Reflections -Reflections took 10 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-22 14:48:44.952 [main] INFO  org.reflections.Reflections -Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-22 14:48:45.074 [main] INFO  org.reflections.Reflections -Reflections took 119 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 14:48:45.083 [main] INFO  org.reflections.Reflections -Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-22 14:48:45.092 [main] INFO  org.reflections.Reflections -Reflections took 7 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-22 14:48:45.102 [main] INFO  org.reflections.Reflections -Reflections took 7 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-22 14:48:45.202 [main] INFO  org.reflections.Reflections -Reflections took 97 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 14:48:52.836 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration -Located property source: [BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common,DEFAULT_GROUP'}]
+2023-03-22 14:48:52.840 [main] INFO  c.c.a.a.AssembleApiGatewayApplication -No active profile set, falling back to default profiles: default
+2023-03-22 15:25:54.824 [main] INFO  org.reflections.Reflections -Reflections took 25 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-22 15:25:54.849 [main] INFO  org.reflections.Reflections -Reflections took 11 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-22 15:25:54.859 [main] INFO  org.reflections.Reflections -Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-22 15:25:54.964 [main] INFO  org.reflections.Reflections -Reflections took 103 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 15:25:54.972 [main] INFO  org.reflections.Reflections -Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-22 15:25:54.982 [main] INFO  org.reflections.Reflections -Reflections took 8 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-22 15:25:54.990 [main] INFO  org.reflections.Reflections -Reflections took 6 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-22 15:25:55.090 [main] INFO  org.reflections.Reflections -Reflections took 98 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 15:26:02.699 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration -Located property source: [BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common,DEFAULT_GROUP'}]
+2023-03-22 15:26:02.705 [main] INFO  c.c.a.a.AssembleApiGatewayApplication -No active profile set, falling back to default profiles: default
+2023-03-22 15:28:01.304 [main] INFO  org.reflections.Reflections -Reflections took 27 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-22 15:28:01.329 [main] INFO  org.reflections.Reflections -Reflections took 10 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-22 15:28:01.340 [main] INFO  org.reflections.Reflections -Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-22 15:28:01.452 [main] INFO  org.reflections.Reflections -Reflections took 108 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 15:28:01.459 [main] INFO  org.reflections.Reflections -Reflections took 7 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-22 15:28:01.470 [main] INFO  org.reflections.Reflections -Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-22 15:28:01.479 [main] INFO  org.reflections.Reflections -Reflections took 7 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-22 15:28:01.583 [main] INFO  org.reflections.Reflections -Reflections took 102 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 15:28:09.259 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration -Located property source: [BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common,DEFAULT_GROUP'}]
+2023-03-22 15:28:09.266 [main] INFO  c.c.a.a.AssembleApiGatewayApplication -No active profile set, falling back to default profiles: default
+2023-03-22 15:30:13.354 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=7651e513-7efe-38d9-bce7-4282759fe0de
+2023-03-22 15:30:13.405 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 15:30:13.406 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 15:30:13.407 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 15:30:13.509 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -gateway route init...
+2023-03-22 15:30:13.510 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -load the nacos config is assemble-platform-common.properties,DEFAULT_GROUP
+2023-03-22 15:30:19.864 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -获取网关当前配置:
+null
+2023-03-22 15:30:19.870 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -load the nacos config is assemble-platform-common.properties,DEFAULT_GROUP
+2023-03-22 15:30:26.248 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-22 15:30:26.252 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-22 15:30:27.457 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [After]
+2023-03-22 15:30:27.458 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Before]
+2023-03-22 15:30:27.458 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Between]
+2023-03-22 15:30:27.458 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Cookie]
+2023-03-22 15:30:27.459 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Header]
+2023-03-22 15:30:27.459 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Host]
+2023-03-22 15:30:27.459 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Method]
+2023-03-22 15:30:27.459 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Path]
+2023-03-22 15:30:27.459 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Query]
+2023-03-22 15:30:27.459 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2023-03-22 15:30:27.459 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-22 15:30:27.460 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Weight]
+2023-03-22 15:30:27.460 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-22 15:30:33.710 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver -Exposing 20 endpoint(s) beneath base path '/actuator'
+2023-03-22 15:30:33.772 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-22 15:30:33.815 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Initializing ExecutorService
+2023-03-22 15:30:35.017 [main] INFO  o.s.b.w.e.netty.NettyWebServer -Netty started on port(s): 8001
+2023-03-22 15:30:35.774 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-22 15:30:35.776 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-22 15:30:36.086 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Shutting down ExecutorService
+2023-03-22 15:46:34.264 [main] INFO  org.reflections.Reflections -Reflections took 28 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-22 15:46:34.289 [main] INFO  org.reflections.Reflections -Reflections took 10 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-22 15:46:34.300 [main] INFO  org.reflections.Reflections -Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-22 15:46:34.406 [main] INFO  org.reflections.Reflections -Reflections took 103 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 15:46:34.414 [main] INFO  org.reflections.Reflections -Reflections took 7 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-22 15:46:34.423 [main] INFO  org.reflections.Reflections -Reflections took 8 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-22 15:46:34.432 [main] INFO  org.reflections.Reflections -Reflections took 7 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-22 15:46:34.532 [main] INFO  org.reflections.Reflections -Reflections took 98 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 15:46:42.141 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration -Located property source: [BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common,DEFAULT_GROUP'}]
+2023-03-22 15:46:42.145 [main] INFO  c.c.a.a.AssembleApiGatewayApplication -No active profile set, falling back to default profiles: default
+2023-03-22 15:47:46.844 [main] INFO  org.reflections.Reflections -Reflections took 27 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-22 15:47:46.868 [main] INFO  org.reflections.Reflections -Reflections took 10 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-22 15:47:46.879 [main] INFO  org.reflections.Reflections -Reflections took 9 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-22 15:47:46.984 [main] INFO  org.reflections.Reflections -Reflections took 102 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 15:47:46.992 [main] INFO  org.reflections.Reflections -Reflections took 7 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-22 15:47:47.002 [main] INFO  org.reflections.Reflections -Reflections took 7 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-22 15:47:47.011 [main] INFO  org.reflections.Reflections -Reflections took 7 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-22 15:47:47.109 [main] INFO  org.reflections.Reflections -Reflections took 96 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 15:47:54.713 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration -Located property source: [BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common,DEFAULT_GROUP'}]
+2023-03-22 15:47:54.720 [main] INFO  c.c.a.a.AssembleApiGatewayApplication -No active profile set, falling back to default profiles: default
+2023-03-22 15:51:06.549 [main] INFO  org.reflections.Reflections -Reflections took 26 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-03-22 15:51:06.573 [main] INFO  org.reflections.Reflections -Reflections took 10 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-03-22 15:51:06.584 [main] INFO  org.reflections.Reflections -Reflections took 9 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-03-22 15:51:06.703 [main] INFO  org.reflections.Reflections -Reflections took 115 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 15:51:06.712 [main] INFO  org.reflections.Reflections -Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-03-22 15:51:06.723 [main] INFO  org.reflections.Reflections -Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-03-22 15:51:06.732 [main] INFO  org.reflections.Reflections -Reflections took 7 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-03-22 15:51:06.830 [main] INFO  org.reflections.Reflections -Reflections took 96 ms to scan 165 urls, producing 0 keys and 0 values 
+2023-03-22 15:51:14.448 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration -Located property source: [BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-assemble-platform-common,DEFAULT_GROUP'}]
+2023-03-22 15:51:14.454 [main] INFO  c.c.a.a.AssembleApiGatewayApplication -No active profile set, falling back to default profiles: default
+2023-03-22 15:51:23.985 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=7651e513-7efe-38d9-bce7-4282759fe0de
+2023-03-22 15:51:24.052 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 15:51:24.054 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 15:51:24.055 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-22 15:51:28.647 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -gateway route init...
+2023-03-22 15:51:28.647 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -load the nacos config is assemble-platform-common.properties,DEFAULT_GROUP
+2023-03-22 15:51:34.995 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -获取网关当前配置:
+null
+2023-03-22 15:51:35.000 [main] INFO  c.c.a.a.r.NacosDynamicRouteService -load the nacos config is assemble-platform-common.properties,DEFAULT_GROUP
+2023-03-22 15:51:41.376 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-22 15:51:41.379 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-22 15:51:42.595 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [After]
+2023-03-22 15:51:42.595 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Before]
+2023-03-22 15:51:42.595 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Between]
+2023-03-22 15:51:42.595 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Cookie]
+2023-03-22 15:51:42.596 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Header]
+2023-03-22 15:51:42.596 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Host]
+2023-03-22 15:51:42.596 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Method]
+2023-03-22 15:51:42.596 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Path]
+2023-03-22 15:51:42.596 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Query]
+2023-03-22 15:51:42.596 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2023-03-22 15:51:42.596 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [RemoteAddr]
+2023-03-22 15:51:42.597 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [Weight]
+2023-03-22 15:51:42.597 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator -Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-03-22 15:51:48.845 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver -Exposing 20 endpoint(s) beneath base path '/actuator'
+2023-03-22 15:51:48.908 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-22 15:51:48.950 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Initializing ExecutorService
+2023-03-22 15:51:50.191 [main] INFO  o.s.b.w.e.netty.NettyWebServer -Netty started on port(s): 8001
+2023-03-22 15:51:51.067 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-22 15:51:51.069 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
